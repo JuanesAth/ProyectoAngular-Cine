@@ -1,0 +1,50 @@
+.container {
+  padding: 3% 10%;
+  display: grid;
+  grid-template-columns: 1rf 1rf 1rf;
+  justify-content: space-evenly;
+}
+
+.cover{
+  grid-column: 1;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover img{
+  width: 100%;
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3em;
+  padding: 2em;
+  background-color: #eee;
+  width: 20vw;
+  grid-column: 2;
+}
+
+.sidepane {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  background-color: #eee;
+  justify-content: space-between;
+  width: 20vw;
+  grid-column: 3;
+}
+
+button {
+  color: white;
+  background-color: blueviolet;
+  border-radius: 6px;
+  border: 0;
+  padding: 10px 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
